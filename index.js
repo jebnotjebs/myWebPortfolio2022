@@ -7,7 +7,10 @@ console.log(currentTheme)
 if(currentTheme){
     console.log(currentTheme)
     body.classList.add(currentTheme);
-    console.log(currentTheme)
+    console.log(currentTheme)   
+}
+else{
+    body.classList.add('dark')
 }
 
 darkBtn.onclick = () => {
