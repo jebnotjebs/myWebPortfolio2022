@@ -22,3 +22,31 @@ lightBtn.onclick = () => {
     const currentTheme = localStorage.getItem('theme')
     console.log(currentTheme)
 }
+
+
+
+function dark(){
+
+    if(document.body.classList.contains('dark')){
+        document.getElementById("icon").src="img/sun.png";
+        body.classList.replace('dark','light');
+        localStorage.setItem('theme','light');
+        const currentTheme = localStorage.getItem('theme')
+        console.log(currentTheme)
+
+        
+
+    }
+    else if(document.body.classList.contains('light')){
+        document.getElementById("icon").src="img/moon.png";
+        body.classList.replace('light','dark');
+        localStorage.setItem('theme','dark');
+        const currentTheme = localStorage.getItem('theme')
+        console.log(currentTheme)
+
+    }
+    else{
+        alert('something worng');
+    }
+   
+}

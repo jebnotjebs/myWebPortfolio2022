@@ -2,20 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 /* themes */
-.light {
-    
-    --bg: var(--light-bg3);
-    --bg-nav: linear-gradient(to right, var(--dark-bg), var(--dark-gray));
-    --bg-nav-bar:var(--light-bg);
-    --bg-dropdown: var(--gray6);
-    --nav-text: black;  
-    --bg-header: var(--light-bg2);
-    --text:var(--light-text2);
-    --border-color: var(--purple);
-    --dropDown-bg:var(--light-bg2);
-    
-}
-.dark {
+    .light {
+        
+        --bg: var(--light-bg3);
+        --bg-nav: linear-gradient(to right, var(--dark-bg), var(--dark-gray));
+        --bg-nav-bar:var(--light-bg);
+        --bg-dropdown: var(--gray6);
+        --nav-text: black;  
+        --bg-header: var(--light-bg2);
+        --text:var(--light-text2);
+        --border-color: var(--purple);
+        --dropDown-bg:var(--light-bg2);
+        
+    }
+.dark{
     --bg: var(--dark-gray);
     --bg-nav: linear-gradient(to right, var(--dark-bg), var(--dark-gray));
     --bg-nav-bar:var(--dark-bg);
@@ -72,6 +72,12 @@ ul{
     font-weight: 500;
 }
 
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
 .navbar{
     height: 4rem;
     width: 100%;
@@ -84,11 +90,7 @@ ul{
     justify-content: space-evenly;
     height: 100%;
 }
-.menu li a{
-    padding: 5px;
-    margin: 5px;
-    
-}
+
 header{
     font-family: 'Press Start 2P';
     padding: 1em;
